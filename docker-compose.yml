@@ -1,0 +1,9 @@
+version: "2.0"
+services:
+        sshchal:
+                build: .
+                hostname: 'sshchal'
+                ports:
+                - "2022:22"
+                restart: 'always'
+
